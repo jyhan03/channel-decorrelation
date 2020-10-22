@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
-set -eu
 
+set -eu
 cpt_dir=exp/conv_tasnet		
 epochs=100
 # constrainted by GPU number & memory

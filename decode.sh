@@ -1,4 +1,5 @@
 #!/bin/bash 
+
 set -eu
 stage=1		# control the decoding stage
 checkpoint=./exp/conv_tasnet/cd_adap/   	 
