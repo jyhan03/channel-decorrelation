@@ -6,6 +6,9 @@ epochs=100
 # constrainted by GPU number & memory
 batch_size=8
 num_workers=8
+# visualization
+#visdom=0
+#visdom_id="cd"
 
 [ $# -ne 2 ] && echo "Script error: $0 <gpuid> <cpt-id>" && exit 1
 

@@ -89,7 +89,8 @@ if __name__ == "__main__":
     parser.add_argument("--visdom_id",
                         type=str,
                         default="Loss curve",
-                        help="Visdom ID")
+                        help="Visdom ID")                        
+
     args = parser.parse_args()
     logger.info("Arguments in command:\n{}".format(pprint.pformat(vars(args))))
 
